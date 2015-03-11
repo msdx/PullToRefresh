@@ -1,1 +1,2 @@
-include ':PullToRefresh'
+include ':sample_x_listview', ':library_x_listview2'
+project(':library_x_listview2').projectDir = new File('library_x_listview')

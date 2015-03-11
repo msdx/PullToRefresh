@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.markmao.pulltorefresh"
+    package="com.markmao.pulltorefresh.sample"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ui.MainActivity"
+            android:name="com.markmao.pulltorefresh.ui.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,11 +20,11 @@
         </activity>
 
         <activity
-            android:name=".ui.XListViewActivity"
+            android:name="com.markmao.pulltorefresh.ui.XListViewActivity"
             android:label="@string/app_name" />
 
         <activity
-            android:name=".ui.XScrollViewActivity"
+            android:name="com.markmao.pulltorefresh.ui.XScrollViewActivity"
             android:label="@string/app_name" />
     </application>
 
